@@ -5,7 +5,12 @@
 ![GitHub Releases](https://img.shields.io/github/downloads/pterodactyl/panel/latest/total?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/pterodactyl/panel?style=for-the-badge)
 
+
 # Pterodactyl Panel
+
+
+**Node.js Version Requirement:**
+This version of Pterodactyl Panel requires **Node.js 21** or later for development and deployment. Please ensure you are using Node.js 21+ before installing dependencies or building the project.
 
 Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security
 in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive

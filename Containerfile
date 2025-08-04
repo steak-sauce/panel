@@ -1,5 +1,5 @@
 # Stage 1 - Builder
-FROM        --platform=$TARGETOS/$TARGETARCH registry.access.redhat.com/ubi9/nodejs-18-minimal AS builder
+FROM        --platform=$TARGETOS/$TARGETARCH node:21-alpine AS builder
 
 USER        0
 RUN         npm install -g pnpm
