@@ -84,9 +84,7 @@ function App() {
                                 element={
                                     <AuthenticatedRoute>
                                         <Spinner.Suspense>
-                                            <ServerContext.Provider>
-                                                <ServerRouter />
-                                            </ServerContext.Provider>
+                                            <DashboardRouter />
                                         </Spinner.Suspense>
                                     </AuthenticatedRoute>
                                 }
