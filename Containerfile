@@ -72,6 +72,8 @@ COPY        .github/docker/Caddyfile /etc/caddy/Caddyfile
 COPY        .github/docker/php-fpm.conf /etc/php-fpm.conf
 COPY        .github/docker/supervisord.conf /etc/supervisord.conf
 COPY        .github/docker/yacron.yaml /etc/yacron.yaml
+COPY        .github/docker/panel-init.sh /usr/local/bin/panel-init.sh
+RUN         chmod +x /usr/local/bin/panel-init.sh
 
 EXPOSE      8080
 CMD         ["/usr/bin/supervisord", "--configuration=/etc/supervisord.conf"]
